@@ -18,7 +18,7 @@ Activity:
     STANDING;
     WALKING;
     WALKING_DOWNSTAIRS;
-    WALKING_STAIRS.
+    WALKING_UPSTAIRS.
     
 Remaining variables:
   Averaged values over a plurality of observations for each subject and 
