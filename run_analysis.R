@@ -49,7 +49,7 @@ activity_dict <- read.table("UCI HAR Dataset/activity_labels.txt")
 for (i in 1:6) {
   merged_set$Activity <- gsub(as.character(i), activity_dict$V2[i], merged_set$Activity)
 }
-
+#more comments
 #Step 4: Appropriately label the data set with descriptive variable names
 names(merged_set) <- sub("^t", "Time.Domain.", names(merged_set))
 names(merged_set) <- sub("^f", "Frequency.Domain.", names(merged_set))
